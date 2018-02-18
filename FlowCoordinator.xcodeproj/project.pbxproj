@@ -56,7 +56,7 @@
 		28FDF382203A0689007DD2AA = {
 			isa = PBXGroup;
 			children = (
-				28FDF38E203A0689007DD2AA /* FlowCoordinator */,
+				28FDF38E203A0689007DD2AA /* Source */,
 				28FDF38D203A0689007DD2AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +69,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28FDF38E203A0689007DD2AA /* FlowCoordinator */ = {
+		28FDF38E203A0689007DD2AA /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				28FDF3A4203A08C3007DD2AA /* Router */,
@@ -78,7 +78,7 @@
 				28FDF38F203A0689007DD2AA /* FlowCoordinator.h */,
 				28FDF390203A0689007DD2AA /* Info.plist */,
 			);
-			path = FlowCoordinator;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		28FDF3A3203A08A9007DD2AA /* Coordinator */ = {
@@ -345,7 +345,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FlowCoordinator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagineswift.frameworks.FlowCoordinator;
@@ -368,7 +368,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FlowCoordinator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagineswift.frameworks.FlowCoordinator;
