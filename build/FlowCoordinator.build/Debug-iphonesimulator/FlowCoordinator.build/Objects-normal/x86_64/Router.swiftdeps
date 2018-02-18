@@ -1,0 +1,54 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Router"
+provides-nominal:
+- "15FlowCoordinator6RouterP"
+provides-member:
+- ["15FlowCoordinator6RouterP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Presentable"
+- "Router"
+- "Void"
+depends-member:
+- ["15FlowCoordinator11PresentableP", "Bool"]
+- ["15FlowCoordinator11PresentableP", "Presentable"]
+- ["15FlowCoordinator11PresentableP", "Void"]
+- ["15FlowCoordinator11PresentableP", "dismissModule"]
+- ["15FlowCoordinator11PresentableP", "popModule"]
+- ["15FlowCoordinator11PresentableP", "popToRootModule"]
+- ["15FlowCoordinator11PresentableP", "present"]
+- ["15FlowCoordinator11PresentableP", "push"]
+- ["15FlowCoordinator11PresentableP", "setRootModule"]
+- ["15FlowCoordinator11PresentableP", ""]
+- ["15FlowCoordinator6RouterP", "Bool"]
+- ["15FlowCoordinator6RouterP", "Presentable"]
+- ["15FlowCoordinator6RouterP", "Void"]
+- ["15FlowCoordinator6RouterP", "dismissModule"]
+- ["15FlowCoordinator6RouterP", "popModule"]
+- ["15FlowCoordinator6RouterP", "popToRootModule"]
+- ["15FlowCoordinator6RouterP", "present"]
+- ["15FlowCoordinator6RouterP", "push"]
+- ["15FlowCoordinator6RouterP", "setRootModule"]
+depends-nominal:
+- "15FlowCoordinator11PresentableP"
+- "15FlowCoordinator6RouterP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/FlowCoordinator/FlowCoordinator.h"
+- "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/build/FlowCoordinator.build/Debug-iphonesimulator/FlowCoordinator.build/unextended-module.modulemap"
+interface-hash: "de86f90619bc4ce53f276fbfc4a17883"

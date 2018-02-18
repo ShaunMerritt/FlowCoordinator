@@ -1,0 +1,11 @@
+framework module FlowCoordinator {
+  umbrella header "FlowCoordinator.h"
+
+  export *
+  module * { export * }
+}
+
+module FlowCoordinator.Swift {
+    header "FlowCoordinator-Swift.h"
+    requires objc
+}

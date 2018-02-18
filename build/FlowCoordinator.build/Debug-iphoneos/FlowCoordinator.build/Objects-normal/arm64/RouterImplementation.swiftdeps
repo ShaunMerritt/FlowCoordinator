@@ -1,0 +1,516 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RouterImplementation"
+provides-nominal:
+- "15FlowCoordinator20RouterImplementationC"
+provides-member:
+- ["15FlowCoordinator20RouterImplementationC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Dictionary"
+- "NSObject"
+- "Presentable"
+- "Router"
+- "RouterImplementation"
+- !private "StringLiteralType"
+- "UINavigationController"
+- "UIViewController"
+- "Void"
+- !private "assertionFailure"
+depends-member:
+- !private ["Sa", "forEach"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "assertionFailure"]
+- !private ["s7CVarArgP", "completions"]
+- !private ["s7CVarArgP", "dismiss"]
+- ["s7CVarArgP", "dismissModule"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isNavigationBarHidden"]
+- ["s7CVarArgP", "popModule"]
+- ["s7CVarArgP", "popToRootModule"]
+- !private ["s7CVarArgP", "popToRootViewController"]
+- !private ["s7CVarArgP", "popViewController"]
+- ["s7CVarArgP", "present"]
+- ["s7CVarArgP", "push"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "rootController"]
+- !private ["s7CVarArgP", "runCompletion"]
+- ["s7CVarArgP", "setRootModule"]
+- !private ["s7CVarArgP", "setViewControllers"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "toPresent"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "forEach"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeValue"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "assertionFailure"]
+- !private ["s28CustomDebugStringConvertibleP", "completions"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- ["s28CustomDebugStringConvertibleP", "dismissModule"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isNavigationBarHidden"]
+- ["s28CustomDebugStringConvertibleP", "popModule"]
+- ["s28CustomDebugStringConvertibleP", "popToRootModule"]
+- !private ["s28CustomDebugStringConvertibleP", "popToRootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "popViewController"]
+- ["s28CustomDebugStringConvertibleP", "present"]
+- ["s28CustomDebugStringConvertibleP", "push"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "rootController"]
+- !private ["s28CustomDebugStringConvertibleP", "runCompletion"]
+- ["s28CustomDebugStringConvertibleP", "setRootModule"]
+- !private ["s28CustomDebugStringConvertibleP", "setViewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "toPresent"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "assertionFailure"]
+- !private ["s23CustomStringConvertibleP", "completions"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- ["s23CustomStringConvertibleP", "dismissModule"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isNavigationBarHidden"]
+- ["s23CustomStringConvertibleP", "popModule"]
+- ["s23CustomStringConvertibleP", "popToRootModule"]
+- !private ["s23CustomStringConvertibleP", "popToRootViewController"]
+- !private ["s23CustomStringConvertibleP", "popViewController"]
+- ["s23CustomStringConvertibleP", "present"]
+- ["s23CustomStringConvertibleP", "push"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "rootController"]
+- !private ["s23CustomStringConvertibleP", "runCompletion"]
+- ["s23CustomStringConvertibleP", "setRootModule"]
+- !private ["s23CustomStringConvertibleP", "setViewControllers"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "toPresent"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "forEach"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "removeValue"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "removeValue"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "forEach"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "removeValue"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "assertionFailure"]
+- !private ["s9EquatableP", "completions"]
+- !private ["s9EquatableP", "dismiss"]
+- ["s9EquatableP", "dismissModule"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isNavigationBarHidden"]
+- ["s9EquatableP", "popModule"]
+- ["s9EquatableP", "popToRootModule"]
+- !private ["s9EquatableP", "popToRootViewController"]
+- !private ["s9EquatableP", "popViewController"]
+- ["s9EquatableP", "present"]
+- ["s9EquatableP", "push"]
+- !private ["s9EquatableP", "pushViewController"]
+- !private ["s9EquatableP", "rootController"]
+- !private ["s9EquatableP", "runCompletion"]
+- ["s9EquatableP", "setRootModule"]
+- !private ["s9EquatableP", "setViewControllers"]
+- ["s9EquatableP", "toPresent"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "assertionFailure"]
+- !private ["s8HashableP", "completions"]
+- !private ["s8HashableP", "dismiss"]
+- ["s8HashableP", "dismissModule"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isNavigationBarHidden"]
+- ["s8HashableP", "popModule"]
+- ["s8HashableP", "popToRootModule"]
+- !private ["s8HashableP", "popToRootViewController"]
+- !private ["s8HashableP", "popViewController"]
+- ["s8HashableP", "present"]
+- ["s8HashableP", "push"]
+- !private ["s8HashableP", "pushViewController"]
+- !private ["s8HashableP", "rootController"]
+- !private ["s8HashableP", "runCompletion"]
+- ["s8HashableP", "setRootModule"]
+- !private ["s8HashableP", "setViewControllers"]
+- ["s8HashableP", "toPresent"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "forEach"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isNavigationBarHidden"]
+- !private ["So8NSCodingP", "popToRootViewController"]
+- !private ["So8NSCodingP", "popViewController"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "setViewControllers"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "isNavigationBarHidden"]
+- !private ["So26NSExtensionRequestHandlingP", "popToRootViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "popViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "setViewControllers"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Presentable"]
+- ["So8NSObjectC", "UINavigationController"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "assertionFailure"]
+- ["So8NSObjectC", "completions"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "dismissModule"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isNavigationBarHidden"]
+- ["So8NSObjectC", "popModule"]
+- ["So8NSObjectC", "popToRootModule"]
+- !private ["So8NSObjectC", "popToRootViewController"]
+- !private ["So8NSObjectC", "popViewController"]
+- ["So8NSObjectC", "present"]
+- ["So8NSObjectC", "push"]
+- !private ["So8NSObjectC", "pushViewController"]
+- ["So8NSObjectC", "rootController"]
+- ["So8NSObjectC", "runCompletion"]
+- ["So8NSObjectC", "setRootModule"]
+- !private ["So8NSObjectC", "setViewControllers"]
+- ["So8NSObjectC", "toPresent"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "assertionFailure"]
+- !private ["So16NSObjectProtocolP", "completions"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- ["So16NSObjectProtocolP", "dismissModule"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isNavigationBarHidden"]
+- ["So16NSObjectProtocolP", "popModule"]
+- ["So16NSObjectProtocolP", "popToRootModule"]
+- !private ["So16NSObjectProtocolP", "popToRootViewController"]
+- !private ["So16NSObjectProtocolP", "popViewController"]
+- ["So16NSObjectProtocolP", "present"]
+- ["So16NSObjectProtocolP", "push"]
+- !private ["So16NSObjectProtocolP", "pushViewController"]
+- !private ["So16NSObjectProtocolP", "rootController"]
+- !private ["So16NSObjectProtocolP", "runCompletion"]
+- ["So16NSObjectProtocolP", "setRootModule"]
+- !private ["So16NSObjectProtocolP", "setViewControllers"]
+- ["So16NSObjectProtocolP", "toPresent"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["15FlowCoordinator11PresentableP", "assertionFailure"]
+- !private ["15FlowCoordinator11PresentableP", "completions"]
+- !private ["15FlowCoordinator11PresentableP", "dismiss"]
+- ["15FlowCoordinator11PresentableP", "dismissModule"]
+- !private ["15FlowCoordinator11PresentableP", "isNavigationBarHidden"]
+- ["15FlowCoordinator11PresentableP", "popModule"]
+- ["15FlowCoordinator11PresentableP", "popToRootModule"]
+- !private ["15FlowCoordinator11PresentableP", "popToRootViewController"]
+- !private ["15FlowCoordinator11PresentableP", "popViewController"]
+- ["15FlowCoordinator11PresentableP", "present"]
+- ["15FlowCoordinator11PresentableP", "push"]
+- !private ["15FlowCoordinator11PresentableP", "pushViewController"]
+- !private ["15FlowCoordinator11PresentableP", "rootController"]
+- !private ["15FlowCoordinator11PresentableP", "runCompletion"]
+- ["15FlowCoordinator11PresentableP", "setRootModule"]
+- !private ["15FlowCoordinator11PresentableP", "setViewControllers"]
+- ["15FlowCoordinator11PresentableP", "toPresent"]
+- ["15FlowCoordinator11PresentableP", ""]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["15FlowCoordinator6RouterP", "assertionFailure"]
+- !private ["15FlowCoordinator6RouterP", "completions"]
+- ["15FlowCoordinator6RouterP", "dismissModule"]
+- ["15FlowCoordinator6RouterP", "popModule"]
+- ["15FlowCoordinator6RouterP", "popToRootModule"]
+- ["15FlowCoordinator6RouterP", "present"]
+- ["15FlowCoordinator6RouterP", "push"]
+- !private ["15FlowCoordinator6RouterP", "rootController"]
+- !private ["15FlowCoordinator6RouterP", "runCompletion"]
+- ["15FlowCoordinator6RouterP", "setRootModule"]
+- ["15FlowCoordinator6RouterP", "toPresent"]
+- ["15FlowCoordinator6RouterP", ""]
+- ["15FlowCoordinator20RouterImplementationC", "Bool"]
+- ["15FlowCoordinator20RouterImplementationC", "Presentable"]
+- ["15FlowCoordinator20RouterImplementationC", "UINavigationController"]
+- ["15FlowCoordinator20RouterImplementationC", "UIViewController"]
+- ["15FlowCoordinator20RouterImplementationC", "Void"]
+- !private ["15FlowCoordinator20RouterImplementationC", "assertionFailure"]
+- !private ["15FlowCoordinator20RouterImplementationC", "completions"]
+- ["15FlowCoordinator20RouterImplementationC", "deinit"]
+- ["15FlowCoordinator20RouterImplementationC", "dismissModule"]
+- ["15FlowCoordinator20RouterImplementationC", "init"]
+- ["15FlowCoordinator20RouterImplementationC", "popModule"]
+- ["15FlowCoordinator20RouterImplementationC", "popToRootModule"]
+- ["15FlowCoordinator20RouterImplementationC", "present"]
+- ["15FlowCoordinator20RouterImplementationC", "push"]
+- !private ["15FlowCoordinator20RouterImplementationC", "rootController"]
+- !private ["15FlowCoordinator20RouterImplementationC", "runCompletion"]
+- ["15FlowCoordinator20RouterImplementationC", "setRootModule"]
+- ["15FlowCoordinator20RouterImplementationC", "toPresent"]
+- !private ["s8SequenceP", "forEach"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeValue"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "isNavigationBarHidden"]
+- !private ["So21UIAppearanceContainerP", "popToRootViewController"]
+- !private ["So21UIAppearanceContainerP", "popViewController"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "setViewControllers"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "isNavigationBarHidden"]
+- !private ["So18UIContentContainerP", "popToRootViewController"]
+- !private ["So18UIContentContainerP", "popViewController"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "setViewControllers"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "isNavigationBarHidden"]
+- !private ["So18UIFocusEnvironmentP", "popToRootViewController"]
+- !private ["So18UIFocusEnvironmentP", "popViewController"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "setViewControllers"]
+- !private ["So22UINavigationControllerC", "dismiss"]
+- !private ["So22UINavigationControllerC", "isNavigationBarHidden"]
+- !private ["So22UINavigationControllerC", "popToRootViewController"]
+- !private ["So22UINavigationControllerC", "popViewController"]
+- !private ["So22UINavigationControllerC", "present"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So22UINavigationControllerC", "setViewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "isNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "popToRootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "popViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "setViewControllers"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "isNavigationBarHidden"]
+- !private ["So11UIResponderC", "popToRootViewController"]
+- !private ["So11UIResponderC", "popViewController"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "pushViewController"]
+- !private ["So11UIResponderC", "setViewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "isNavigationBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "popToRootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "popViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "setViewControllers"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "isNavigationBarHidden"]
+- !private ["So16UIStateRestoringP", "popToRootViewController"]
+- !private ["So16UIStateRestoringP", "popViewController"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "setViewControllers"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "isNavigationBarHidden"]
+- !private ["So18UITraitEnvironmentP", "popToRootViewController"]
+- !private ["So18UITraitEnvironmentP", "popViewController"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "setViewControllers"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- !private ["So16UIViewControllerC", "isNavigationBarHidden"]
+- !private ["So16UIViewControllerC", "popToRootViewController"]
+- !private ["So16UIViewControllerC", "popViewController"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "pushViewController"]
+- !private ["So16UIViewControllerC", "setViewControllers"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s23_BidirectionalIndexableP", "forEach"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "forEach"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "removeValue"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "forEach"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "removeValue"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assertionFailure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dismissModule"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNavigationBarHidden"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "popModule"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "popToRootModule"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popToRootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "push"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "runCompletion"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setRootModule"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setViewControllers"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "toPresent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "forEach"]
+- !private ["s26_RangeReplaceableIndexableP", "forEach"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "15FlowCoordinator11PresentableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "15FlowCoordinator6RouterP"
+- "15FlowCoordinator20RouterImplementationC"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/FlowCoordinator/FlowCoordinator.h"
+- "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/build/FlowCoordinator.build/Debug-iphoneos/FlowCoordinator.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ed8ba0ee3f4c01b18127a416b3258bca"

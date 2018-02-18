@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		28FDF3A6203A0908007DD2AA /* UniversalFlowCoordinator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 28FDF3A7203A0908007DD2AA /* Build configuration list for PBXAggregateTarget "UniversalFlowCoordinator" */;
+			buildPhases = (
+				28FDF3AA203A0916007DD2AA /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalFlowCoordinator;
+			productName = UniversalFlowCoordinator;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		28FDF391203A0689007DD2AA /* FlowCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 28FDF38F203A0689007DD2AA /* FlowCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28FDF39A203A069D007DD2AA /* RouterImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF397203A069D007DD2AA /* RouterImplementation.swift */; };
+		28FDF39B203A069D007DD2AA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF398203A069D007DD2AA /* Router.swift */; };
+		28FDF39C203A069D007DD2AA /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF399203A069D007DD2AA /* Presentable.swift */; };
+		28FDF39F203A072C007DD2AA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF39D203A072B007DD2AA /* Coordinator.swift */; };
+		28FDF3A0203A072C007DD2AA /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF39E203A072C007DD2AA /* BaseCoordinator.swift */; };
+		28FDF3A2203A079C007DD2AA /* DeeplinkOptionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF3A1203A079C007DD2AA /* DeeplinkOptionProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28FDF38C203A0689007DD2AA /* FlowCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FDF38F203A0689007DD2AA /* FlowCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowCoordinator.h; sourceTree = "<group>"; };
+		28FDF390203A0689007DD2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FDF397203A069D007DD2AA /* RouterImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterImplementation.swift; sourceTree = "<group>"; };
+		28FDF398203A069D007DD2AA /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		28FDF399203A069D007DD2AA /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		28FDF39D203A072B007DD2AA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		28FDF39E203A072C007DD2AA /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		28FDF3A1203A079C007DD2AA /* DeeplinkOptionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkOptionProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FDF388203A0689007DD2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FDF382203A0689007DD2AA = {
+			isa = PBXGroup;
+			children = (
+				28FDF38E203A0689007DD2AA /* FlowCoordinator */,
+				28FDF38D203A0689007DD2AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28FDF38D203A0689007DD2AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FDF38C203A0689007DD2AA /* FlowCoordinator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FDF38E203A0689007DD2AA /* FlowCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				28FDF3A4203A08C3007DD2AA /* Router */,
+				28FDF3A3203A08A9007DD2AA /* Coordinator */,
+				28FDF3A5203A08CE007DD2AA /* Protocols */,
+				28FDF38F203A0689007DD2AA /* FlowCoordinator.h */,
+				28FDF390203A0689007DD2AA /* Info.plist */,
+			);
+			path = FlowCoordinator;
+			sourceTree = "<group>";
+		};
+		28FDF3A3203A08A9007DD2AA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				28FDF39E203A072C007DD2AA /* BaseCoordinator.swift */,
+				28FDF39D203A072B007DD2AA /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		28FDF3A4203A08C3007DD2AA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				28FDF398203A069D007DD2AA /* Router.swift */,
+				28FDF397203A069D007DD2AA /* RouterImplementation.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		28FDF3A5203A08CE007DD2AA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				28FDF399203A069D007DD2AA /* Presentable.swift */,
+				28FDF3A1203A079C007DD2AA /* DeeplinkOptionProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28FDF389203A0689007DD2AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FDF391203A0689007DD2AA /* FlowCoordinator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28FDF38B203A0689007DD2AA /* FlowCoordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FDF394203A0689007DD2AA /* Build configuration list for PBXNativeTarget "FlowCoordinator" */;
+			buildPhases = (
+				28FDF387203A0689007DD2AA /* Sources */,
+				28FDF388203A0689007DD2AA /* Frameworks */,
+				28FDF389203A0689007DD2AA /* Headers */,
+				28FDF38A203A0689007DD2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowCoordinator;
+			productName = FlowCoordinator;
+			productReference = 28FDF38C203A0689007DD2AA /* FlowCoordinator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FDF383203A0689007DD2AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ImagineSwift;
+				TargetAttributes = {
+					28FDF38B203A0689007DD2AA = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					28FDF3A6203A0908007DD2AA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 28FDF386203A0689007DD2AA /* Build configuration list for PBXProject "FlowCoordinator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28FDF382203A0689007DD2AA;
+			productRefGroup = 28FDF38D203A0689007DD2AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FDF38B203A0689007DD2AA /* FlowCoordinator */,
+				28FDF3A6203A0908007DD2AA /* UniversalFlowCoordinator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FDF38A203A0689007DD2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28FDF3AA203A0916007DD2AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"FlowCoordinator\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"FlowCoordinator\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/FlowCoordinator.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/FlowCoordinator.framework/Modules/FlowCoordinator.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/FlowCoordinator.framework/Modules/FlowCoordinator.swiftmodule\"\nfi\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/FlowCoordinator.framework/FlowCoordinator\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/FlowCoordinator.framework/FlowCoordinator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/FlowCoordinator.framework/FlowCoordinator\"\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/FlowCoordinator.framework\" \"${PROJECT_DIR}\"\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FDF387203A0689007DD2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FDF3A2203A079C007DD2AA /* DeeplinkOptionProtocol.swift in Sources */,
+				28FDF3A0203A072C007DD2AA /* BaseCoordinator.swift in Sources */,
+				28FDF39F203A072C007DD2AA /* Coordinator.swift in Sources */,
+				28FDF39B203A069D007DD2AA /* Router.swift in Sources */,
+				28FDF39A203A069D007DD2AA /* RouterImplementation.swift in Sources */,
+				28FDF39C203A069D007DD2AA /* Presentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28FDF392203A0689007DD2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28FDF393203A0689007DD2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28FDF395203A0689007DD2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GDE3D3FC7S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FlowCoordinator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagineswift.frameworks.FlowCoordinator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28FDF396203A0689007DD2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GDE3D3FC7S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FlowCoordinator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagineswift.frameworks.FlowCoordinator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28FDF3A8203A0908007DD2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDE3D3FC7S;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28FDF3A9203A0908007DD2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDE3D3FC7S;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FDF386203A0689007DD2AA /* Build configuration list for PBXProject "FlowCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FDF392203A0689007DD2AA /* Debug */,
+				28FDF393203A0689007DD2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FDF394203A0689007DD2AA /* Build configuration list for PBXNativeTarget "FlowCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FDF395203A0689007DD2AA /* Debug */,
+				28FDF396203A0689007DD2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FDF3A7203A0908007DD2AA /* Build configuration list for PBXAggregateTarget "UniversalFlowCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FDF3A8203A0908007DD2AA /* Debug */,
+				28FDF3A9203A0908007DD2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28FDF383203A0689007DD2AA /* Project object */;
+}

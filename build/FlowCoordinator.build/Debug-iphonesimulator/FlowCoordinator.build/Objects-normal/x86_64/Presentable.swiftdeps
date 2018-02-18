@@ -1,0 +1,79 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Presentable"
+provides-nominal:
+- "15FlowCoordinator11PresentableP"
+- "So16UIViewControllerC"
+provides-member:
+- ["15FlowCoordinator11PresentableP", ""]
+- ["So16UIViewControllerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Presentable"
+- "UIViewController"
+depends-member:
+- ["s7CVarArgP", "toPresent"]
+- ["s28CustomDebugStringConvertibleP", "toPresent"]
+- ["s23CustomStringConvertibleP", "toPresent"]
+- ["s9EquatableP", "toPresent"]
+- ["s8HashableP", "toPresent"]
+- ["So8NSCodingP", "toPresent"]
+- ["So26NSExtensionRequestHandlingP", "toPresent"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "toPresent"]
+- ["So16NSObjectProtocolP", "toPresent"]
+- ["15FlowCoordinator11PresentableP", "UIViewController"]
+- ["15FlowCoordinator11PresentableP", "toPresent"]
+- ["15FlowCoordinator11PresentableP", ""]
+- ["So21UIAppearanceContainerP", "toPresent"]
+- ["So18UIContentContainerP", "toPresent"]
+- ["So18UIFocusEnvironmentP", "toPresent"]
+- ["So30UIPasteConfigurationSupportingP", "toPresent"]
+- ["So11UIResponderC", "UIViewController"]
+- ["So11UIResponderC", "toPresent"]
+- ["So30UIResponderStandardEditActionsP", "toPresent"]
+- ["So16UIStateRestoringP", "toPresent"]
+- ["So18UITraitEnvironmentP", "toPresent"]
+- ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", "deinit"]
+- ["So16UIViewControllerC", "toPresent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "toPresent"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "15FlowCoordinator11PresentableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/FlowCoordinator/FlowCoordinator.h"
+- "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/build/FlowCoordinator.build/Debug-iphonesimulator/FlowCoordinator.build/unextended-module.modulemap"
+interface-hash: "602cf9c74463406faf474cb3c8af4676"

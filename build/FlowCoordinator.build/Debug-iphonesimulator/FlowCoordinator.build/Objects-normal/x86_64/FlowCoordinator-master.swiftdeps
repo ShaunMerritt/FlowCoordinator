@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "5cb31d4c6d9de5bdc09006f5c39b425f"
+build_time: [1518983220, 349205000]
+inputs:
+  "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/FlowCoordinator/Protocols/DeeplinkOptionProtocol.swift": [1518982715, 0]
+  "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/FlowCoordinator/Coordinator/BaseCoordinator.swift": [1518983215, 0]
+  "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/FlowCoordinator/Coordinator/Coordinator.swift": [1518982615, 0]
+  "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/FlowCoordinator/Router/Router.swift": [1518496033, 0]
+  "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/FlowCoordinator/Router/RouterImplementation.swift": [1518981855, 0]
+  "/Users/Shaun/Projects/src/learning/iOS/Frameworks/FlowCoordinator/FlowCoordinator/Protocols/Presentable.swift": [1518982584, 0]
