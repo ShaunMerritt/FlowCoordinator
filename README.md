@@ -7,7 +7,7 @@
 # Example: 
 
 ```ruby
-source 'git@github.com:ShaunOssa/FlowCoordinator.git'
+source 'https://github.com/ShaunOssa/FlowCoordinator.git'
 
 platform :ios, '10.0'
 
